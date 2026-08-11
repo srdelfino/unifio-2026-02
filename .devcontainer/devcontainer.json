@@ -1,0 +1,20 @@
+{
+  "name": "Projeto",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vmware.vscode-spring-boot",       
+        "vscjava.vscode-spring-initializr",
+        "cweijan.vscode-mysql-client2"
+      ]
+    }
+  },
+  "postCreateCommand": "/bin/bash .devcontainer/init-mysql.sh",
+  "postStartCommand": "service mysql start"
+}
