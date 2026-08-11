@@ -1,8 +1,10 @@
 {
   "name": "Projeto",
+
   "build": {
     "dockerfile": "Dockerfile"
   },
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,9 +14,16 @@
         "vmware.vscode-spring-boot",       
         "vscjava.vscode-spring-initializr",
         "cweijan.vscode-mysql-client2"
-      ]
+      ],
+      
+      "settings": {
+        "workbench.colorTheme": "Dark Modern",
+        "editor.fontSize": 20,
+        "terminal.integrated.fontSize": 20
+      }
     }
   },
+  
   "postCreateCommand": "/bin/bash .devcontainer/init-mysql.sh",
   "postStartCommand": "service mysql start"
 }
