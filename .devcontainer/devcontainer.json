@@ -5,14 +5,14 @@
     "dockerfile": "Dockerfile"
   },
 
+  "forwardPorts": [8080, 3306],
+
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-azuretools.vscode-docker",
         "vscjava.vscode-java-pack",
-        "redhat.java",
-        "vmware.vscode-spring-boot",       
-        "vscjava.vscode-spring-initializr",
+        "vmware.vscode-spring-boot",
         "cweijan.vscode-mysql-client2"
       ],
       
