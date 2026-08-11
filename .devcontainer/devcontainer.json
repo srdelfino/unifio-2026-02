@@ -17,6 +17,7 @@
         "ms-azuretools.vscode-docker",
         "vscjava.vscode-java-pack",
         "vmware.vscode-spring-boot",
+        "vscjava.vscode-spring-boot-dashboard",
         "cweijan.vscode-mysql-client2"
       ],
 
