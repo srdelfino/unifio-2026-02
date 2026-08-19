@@ -24,7 +24,8 @@
         "vscjava.vscode-java-pack",           // suporte completo a Java
         "vmware.vscode-spring-boot",          // atalhos/validação do Spring Boot
         "vscjava.vscode-spring-boot-dashboard", // dashboard de apps Spring Boot
-        "cweijan.vscode-mysql-client2"        // rodar SQL sem sair do VS Code
+        "cweijan.vscode-mysql-client2",        // rodar SQL sem sair do VS Code
+        "vscode-spring-initializr"            // criação de projetos Spring Boot
       ],
 
       "settings": {
